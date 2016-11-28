@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rushi1.plus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".Chatroom" />
+        <activity android:name=".ListUsers" />
+        <activity android:name=".ChatBetween" />
+        <activity android:name=".CreateGroup" />
+        <activity android:name=".MyGroups" />
+        <activity android:name=".ChatRoom2" />
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".AllUsers" />
+        <activity android:name=".SignUp"></activity>
+    </application>
+
+</manifest>

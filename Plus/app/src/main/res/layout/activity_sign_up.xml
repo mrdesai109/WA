@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rushi1.plus.SignUp">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5suname"
+        android:hint="Enter Name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6suusername"
+        android:hint="Enter UserName"
+        android:layout_below="@+id/editText5suname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7supass"
+        android:hint="Enter Password"
+        android:layout_below="@+id/editText6suusername"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8sumob"
+        android:hint="Enter Mobile No"
+        android:layout_below="@+id/editText7supass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9sumail"
+        android:hint="Enter Email ID"
+        android:layout_below="@+id/editText8sumob"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10region"
+        android:hint="Your region in Nasik?"
+        android:layout_below="@+id/editText9sumail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-Up"
+        android:id="@+id/button3signup"
+        android:layout_below="@+id/editText10region"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+
+</RelativeLayout>
